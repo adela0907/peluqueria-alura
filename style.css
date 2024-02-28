@@ -229,7 +229,8 @@ td,th{
     width: 100%;
 }
 .lista-diferenciales, .contenido-diferenciales{
-    width: 100%;
+    text-alaign:center
+    width: 75%;
 }
 
 }
