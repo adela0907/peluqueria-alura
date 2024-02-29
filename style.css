@@ -222,14 +222,14 @@ td,th{
         position: static;
     }
 
-  .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
-    width: auto;
+  .caja, .principal, .mapa-contenido, .diferenciales, .contenido-diferenciales, .video{
+    width: 95%;
 }
 .productos, .productos li{
     width: 75%;
     text-align: center;
 }
 .lista-diferenciales, .contenido-diferenciales{
- width: 100%;
+ width: 95%;
 }
 }
