@@ -4,8 +4,8 @@ body{
     background: #fcccd6d0;
 }
 header{
-    background-color:#cccccc ;
-    padding: 20px 0;
+    
+    padding: 10px 0;
 }
 
 .caja{
@@ -14,12 +14,12 @@ header{
     margin: 0 auto;
 }
 .logo{
-    width: 200px;
+    width: 100px;
 }
 /* estilo de la barra de navegacion */
 nav{
     position: absolute;
-    top:100px;
+    top:50px;
     right: 0;
 }
 
@@ -148,9 +148,12 @@ td,th{
     width: 100%;
 }
 .principal{
+    position: absolute;
+    top: 250px;
+    left: 150px;
     padding: 3em 0;
     width: 940px;
-    margin: 0 auto;
+    
 }
 .titulo-principal{
     text-align: center;
