@@ -147,14 +147,7 @@ td,th{
 .banner{
     width: 100%;
 }
-.principal{
-    position: absolute;
-    top: 250px;
-    left: 250px;
-    padding: 3em 0;
-    width: 940px;
-    
-}
+
 .titulo-principal{
     text-align: center;
     font-size: 2em;
@@ -225,27 +218,31 @@ td,th{
         position: static;
     }
 
-  .caja, .principal, .mapa-contenido, .diferenciales, .contenido-diferenciales, .video{
+  .caja, .banner, .principal, .mapa-contenido, .diferenciales, .contenido-diferenciales, .video{
     width: 95%;
-}
-.productos, .productos li{
-    width: 75%;
-    text-align: center;
-}
-.lista-diferenciales, .contenido-diferenciales{
- width: 95%;
-}
-}
-@media (max-width:800px) {
-.principal{
-    position: absolute;
-    top: 100px;
-    left:auto ;
+        }
+ .principal{
+  
     width: 85%;
     padding-left: 20px;
+    padding-top: 20px;
+  }
+ .productos, .productos li{
+    width: 75%;
+     text-align: center;
+  }
+ .lista-diferenciales, .contenido-diferenciales{
+ width: 95%;}
 }
-section.mapa{
-    padding-top: 180px;
-}
+@media(min-width:500px) {
+    .principal{
+        position: absolute;
+        top: 250px;
+        left: 250px;
+        padding: 3em 0;
+        width: 940px;
+        
+    }
     
 }
+
